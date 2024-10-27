@@ -1,4 +1,4 @@
-# Discplina Algoritmo e Programação Estruturada
+# Discipline Algorithm and Structured Programming
 
 > Status : Uninished project 🕰️ / Open PR
 
