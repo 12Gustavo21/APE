@@ -1,3 +1,5 @@
+import math
+
 print("="*10, "QUESTAO 01", "="*10)
 n1 = int(input("Digite a primeira nota: "))
 n2 = int(input("Digite a segunda nota: "))
@@ -19,10 +21,10 @@ print("Sua média final é: ", media_final)
 
 print("="*10, "QUESTAO 04", "="*10)
 carga_horaria = 50
-minutos_necessarios = int(input("Digite os minutos necessarios para realizar a prova: "))
-minutos_para_segundos = minutos_necessarios * 60
-tempo_necessario = minutos_para_segundos / (carga_horaria * 60)
-print(f"Aulas necessarias para a realizacao da prova: {tempo_necessario:.1f}")
+segundos_necessarios = int(input("Digite os segundos necessarios para realizar a prova: "))
+segundos_para_minutos = segundos_necessarios / 60
+tempo_necessario = math.ceil(segundos_para_minutos / carga_horaria)
+print(f"Aulas necessarias para a realizacao da prova: {tempo_necessario}")
 
 print("="*10, "QUESTAO 05", "="*10)
 alunos_aprovados = int(input("Digite a quantidade de alunos aprovados: "))
