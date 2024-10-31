@@ -106,7 +106,7 @@ tabela_meses_trinta = [
   ["ABR, JUN, SET, NOV", 30]
 ]
 
-cabecalhos = ["MÊS", "DIAS"]
+cabecalhos = ["MÊS/MESES", "DIAS"]
 
 jan = 1
 fev = 2
