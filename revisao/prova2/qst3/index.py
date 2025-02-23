@@ -9,24 +9,24 @@ for i in range(4):
   for j in range(4):
     m[i][j] = random.randint(1, 100)
     
-vd = []
+dp = []
 
 for i in range(4):
   for j in range(4):
     if i == j:
-      vd.append(m[i][j])
+      dp.append(m[i][j])
 
 for i in range(4):
   print(m[i])
 
 print("="*38)
-print(vd)
+print(dp)
 
-vds = []
+ds = []
 
 for i in range(4):
   for j in range(4):
       if i + j == len(m)-1:
-        vds.append(m[i][j])
+        ds.append(m[i][j])
       
-print(vds)
+print(ds)
