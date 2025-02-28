@@ -26,10 +26,10 @@ max_freq = max(len(indices) for indices in palavras.values())
 mais_frequentes = [palavra for palavra, indices in palavras.items() if len(indices) == max_freq]
 
 for palavra, indices in palavras.items():
-  print("="*38)
-  print("palavra: ", palavra)
-  print("onde a palavra esta: ", *indices)
-  print("quantas vezes a palavra aparece: ", len(indices))
+    print("="*38)
+    print("palavra: ", palavra)
+    print("onde a palavra esta: ", *indices)
+    print("quantas vezes a palavra aparece: ", len(indices))
 
 print("="*38)
 print("Palavra(s) mais frequente(s):")
