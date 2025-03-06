@@ -1,4 +1,4 @@
-import lib_vogais as lv
+import exercicios.funcoes.funcoes_v1.lib_vogais as lv
 
 def imprime_tracos():
     print("="*60)
@@ -77,7 +77,7 @@ while True:
                 print("Seu texto não tem vogais")
             imprime_tracos()
         continuar = input("Deseja continuar? (S/N): ")
-        if continuar[0] == "S" or continuar[0] == "s":
+        if continuar[0].lower() == "s":
             continue
         else:
             break
