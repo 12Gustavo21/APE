@@ -18,7 +18,7 @@ print(f"d) Quantidade de estudantes com nota abaixo da média: {ml.quantidade_el
 print(f"e) Quantidade de estudantes aprovados (nota >= 70): {ml.quantidade_elementos_entre_dois_valores(notas, 70, 100)}")
 
 # f) A quantidade de estudantes reprovados (nota menor que 70).
-print(f"f) Quantidade de estudantes reprovados (nota < 70): {ml.quantidade_elementos_abaixo_da_media(notas)}")
+print(f"f) Quantidade de estudantes reprovados (nota < 70): {ml.quantidade_elementos_entre_dois_valores(notas, 0, 69)}")
 
 # g) A quantidade de estudantes que não possuem nota entre 70 e 80 (inclusive).
 print(f"g) Quantidade de estudantes sem nota entre 70 e 80: {ml.quantidade_elementos_fora_de_um_intervalo(notas, 70, 80)}")
