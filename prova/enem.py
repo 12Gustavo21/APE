@@ -113,4 +113,4 @@ def codigo_curso(registros: list, nome_campus: str, nome_curso: str) -> int:
         if nome_campus in itens and nome_curso in itens:
             cod = itens.split(";")[5]
             novo_cod = int(cod.replace('"', "").replace(",", "."))
-    return novo_cod
+            return novo_cod
