@@ -11,10 +11,7 @@ vogais = "aeiouAEIOU"
 
 # Verifica se um determinado símbolo é vogal.
 def eh_vogal(simbolo: str) -> bool:
-    if simbolo in vogais and len(simbolo) > 0:
-        return True
-    else:
-        return False
+    return simbolo in vogais and len(simbolo) > 0
 
 # Verifica se um texto é formado apenas por vogais.
 def eh_texto_vogal(texto: str) -> bool:

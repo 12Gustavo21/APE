@@ -1,4 +1,4 @@
-import exercicios.funcoes.funcoes_v1.lib_vogais as lv
+import lib_vogais as lv
 
 def imprime_tracos():
     print("="*60)
